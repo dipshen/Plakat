@@ -1,0 +1,421 @@
+@media only screen and (max-width: 1920px) {
+img {
+  opacity: 70%;
+}
+div {
+  position: absolute;
+}
+/* Первый бульк */
+.c1 img {
+  position: absolute;
+}
+.c1 img:nth-of-type(1){
+  position: relative;
+  width: 900px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 70px;
+  position: absolute;
+  top: 106px;
+  left: 120px;
+  line-height: 80px;
+  color: #9DB8D6;
+}
+h2 {
+  font-weight: 500;
+  font-size: 50px;
+  position: absolute;
+  top: 374px;
+  left: 120px;
+  color: #9DB8D6;
+}
+.c1 img:nth-of-type(2){
+  position: absolute;
+  top: 404px;
+  left: 141px;
+}
+
+
+
+
+
+
+/* Второй бульк */
+div + img:nth-of-type(1) {
+  position: absolute;
+  top: 410px;
+  left: 613px;
+}
+.c2 {
+  top: 584px;
+  right: 0px;
+}
+.c2 img {
+  position: absolute;
+}
+.c2 img:nth-of-type(1){
+  position: relative;
+  width: 1226px;
+}
+.c2 img:nth-of-type(2){
+  width: 687px;
+  top: 77px;
+  left: 170px;
+}
+.fl1 {
+  position: absolute;
+  background: url('../images/fl1_1.svg');
+  display: block;
+  width: 124px;
+  height: 178px;
+  top: 109px;
+  left: 73px;
+}
+.fl1:hover {
+  background: url('../images/fl1_2.svg');
+}
+.fl2 {
+  position: absolute;
+  background: url('../images/fl2_1.svg');
+  display: block;
+  width: 167px;
+  height: 231px;
+  top: 126px;
+  left: 188px;
+}
+.fl2:hover {
+  background: url('../images/fl2_2.svg');
+}
+.fl3 {
+  position: absolute;
+  background: url('../images/fl3_1.svg');
+  display: block;
+  width: 153px;
+  height: 235px;
+  top: 151px;
+  left: 373px;
+}
+.fl3:hover {
+  background: url('../images/fl3_2.svg');
+}
+.fl4 {
+  position: absolute;
+  background: url('../images/fl4_1.svg');
+  display: block;
+  width: 187px;
+  height: 265px;
+  top: 130px;
+  left: 565px;
+}
+.fl4:hover {
+  background: url('../images/fl4_2.svg');
+}
+.fl5 {
+  position: absolute;
+  background: url('../images/fl5_1.svg');
+  display: block;
+  width: 249px;
+  height: 287px;
+  top:80px;
+  left: 747px;
+}
+.fl5:hover {
+  background: url('../images/fl5_2.svg');
+}
+.c2 img:nth-of-type(3){
+  width: 872px;
+  top: 108px;
+  left: 29px;
+}
+.fl6 {
+  position: absolute;
+  background: url('../images/fl6_1.svg');
+  display: block;
+  width: 159px;
+  height: 239px;
+  top:358px;
+  left: 0px;
+}
+.fl6:hover {
+  background: url('../images/fl6_2.svg');
+}
+.fl7 {
+  position: absolute;
+  background: url('../images/fl7_1.svg');
+  display: block;
+  width: 177px;
+  height: 256px;
+  top:362px;
+  left: 202px;
+}
+.fl7:hover {
+  background: url('../images/fl7_2.svg');
+}
+.fl8 {
+  position: absolute;
+  background: url('../images/fl8_1.svg');
+  display: block;
+  width: 228px;
+  height: 294px;
+  top:312px;
+  left: 385px;
+}
+.fl8:hover {
+  background: url('../images/fl8_2.svg');
+}
+.fl9 {
+  position: absolute;
+  background: url('../images/fl9_1.svg');
+  display: block;
+  width: 277px;
+  height: 325px;
+  top:225px;
+  left: 582px;
+}
+.fl9:hover {
+  background: url('../images/fl9_2.svg');
+}
+.fl10 {
+  position: absolute;
+  background: url('../images/fl10_1.svg');
+  display: block;
+  width: 302px;
+  height: 326px;
+  top:109px;
+  left: 759px;
+}
+.fl10:hover {
+  background: url('../images/fl10_2.svg');
+}
+.ser1 {
+  width: 231px;
+  height: 314px;
+  display: block;
+  top: 633px;
+  left: 134px;
+  background: url('../images/ser1.svg');
+  animation: vv1 2s linear infinite;
+}
+@keyframes vv1 {
+  0% {top: 633px; transition-timing-function: ease;}
+  25% {top: 673px; transition-timing-function: ease;}
+  50% {top: 633px; transition-timing-function: ease;}
+  75% {top: 593px; transition-timing-function: ease;}
+}
+.ser2 {
+  width: 231px;
+  height: 314px;
+  display: block;
+  top: 609px;
+  left: 232px;
+  background: url('../images/ser2.svg');
+  animation: vv2 2s linear infinite;
+}
+@keyframes vv2 {
+  0% {top: 609px; transition-timing-function: ease;}
+  25% {top: 569px; transition-timing-function: ease;}
+  50% {top: 609px; transition-timing-function: ease;}
+  75% {top: 649px; transition-timing-function: ease;}
+}
+.ring1 {
+  width: 126px;
+  height: 176px;
+  display: block;
+  top: 639px;
+  left: 523px;
+  background: url('../images/ring1.svg');
+  animation: rotate1 3s linear infinite;
+}
+@keyframes rotate1 {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(-360deg);}
+}
+.ring2 {
+  width: 126px;
+  height: 154px;
+  display: block;
+  top: 710px;
+  left: 613px;
+  background: url('../images/ring2.svg');
+  animation: rotate2 3s linear infinite;
+}
+@keyframes rotate2 {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
+}
+.teapot {
+  position: absolute;
+  background: url('../images/teapot.svg');
+  display: block;
+  width: 493px;
+  height: 336px;
+  top:945px;
+  left: 340px;
+}
+.teapot:hover {
+  transform: rotate(-30deg);
+}
+.greben {
+  position: absolute;
+  background: url('../images/greben.svg');
+  display: block;
+  width: 251px;
+  height: 408px;
+  top:765px;
+  left: 912px;
+}
+.greben:hover {
+  transform: rotate(20deg);
+}
+
+
+
+
+
+
+/* Третий бульк */
+div + img:nth-of-type(2) {
+  position: absolute;
+  top: 1411px;
+  left: 344px;
+}
+.c3 {
+  top: 1504px;
+  left: 0px;
+}
+.c3 img:nth-of-type(1){
+  width: 984px;
+}
+.icecr {
+  width: 429px;
+  height: 585px;
+  display: block;
+  top: 35px;
+  left: 30px;
+  background: url('../images/icecr.svg');
+  animation: color 1.5s steps(1)  infinite;
+}
+@keyframes color {
+  0% {background-position: 0px top;}
+  33% {background-position: -429px top;}
+  66% {background-position: -858px top;}
+}
+.led {
+  position: absolute;
+  background: url('../images/led1.svg');
+  display: block;
+  width: 624px;
+  height: 584px;
+  top:77px;
+  left: 195px;
+}
+.led:hover {
+  background: url('../images/led2.svg');
+}
+.c3 img:nth-of-type(2) {
+  top: 486px;
+  left: 404px;
+}
+.lol {
+  width: 333px;
+  height: 333px;
+  display: block;
+  top: 311px;
+  left: 601px;
+  background: url('../images/lol.svg');
+  animation: rotate3 1s linear infinite;
+}
+.rotate3:hover {
+  animation-play-state: paused;
+}
+@keyframes rotate3 {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
+}
+
+.kon1 {
+  width: 100px;
+  height: 270px;
+  display: block;
+  top: 671px;
+  left: 135px;
+  background: url('../images/kon1.svg');
+  animation: vert1 2s linear infinite;
+}
+@keyframes vert1 {
+  0% {transform: rotate(0);}
+  25% {transform: rotate(30deg);}
+  50% {transform: rotate(0);}
+  75% {transform: rotate(-50deg);}
+}
+.kon2 {
+  width: 212px;
+  height: 247px;
+  display: block;
+  top: 542px;
+  left: 202px;
+  background: url('../images/kon2.svg');
+  animation: vert2 2s linear infinite;
+}
+@keyframes vert2 {
+  0% {transform: rotate(0);}
+  25% {transform: rotate(-30deg);}
+  50% {transform: rotate(0);}
+  75% {transform: rotate(50deg);}
+}
+.vata {
+  position: absolute;
+  background: url('../images/vata.svg');
+  display: block;
+  width: 636px;
+  height: 543px;
+  top:541px;
+  left: 221px;
+}
+.vata:hover {
+  transform: scale(1.15);
+}
+
+
+
+/* Четвертый бульк */
+div + img:nth-of-type(3) {
+  position: absolute;
+  top: 2008px;
+  left: 1153px;
+}
+.c4 {
+  top: 2098px;
+  right: 0px;
+}
+
+
+
+
+
+/* Подвал */
+p {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  font-size: 40px;
+  display: inline-block;
+  padding-top: 3720px;
+  padding-left: 268px;
+}
+p:nth-of-type(1){
+  padding-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+}
