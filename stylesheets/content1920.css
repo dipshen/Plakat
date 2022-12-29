@@ -1,7 +1,4 @@
 @media only screen and (max-width: 1920px) {
-img {
-  opacity: 70%;
-}
 div {
   position: absolute;
 }
@@ -28,11 +25,64 @@ h1 {
 }
 h2 {
   font-weight: 500;
-  font-size: 50px;
-  position: absolute;
-  top: 374px;
-  left: 120px;
-  color: #9DB8D6;
+  font-size: 100px;
+  color: #fff;
+}
+.t1 {
+  transform: rotate(-26deg);
+  top: 827px;
+  left: 27px;
+  animation: tv1 1s linear infinite;
+}
+.tv1:hover {
+  animation-play-state: paused;
+}
+@keyframes tv1 {
+  0% {transform: rotate(-26deg);}
+  50% {transform: rotate(-18deg);}
+}
+.t2 {
+  transform: rotate(1deg);
+  top: 1000px;
+  left: 223px;
+  animation: tv2 1s linear infinite;
+}
+.tv2:hover {
+  animation-play-state: paused;
+}
+@keyframes tv2 {
+  0% {transform: rotate(1deg);}
+  50% {transform: rotate(-20deg);}
+}
+.t3 {
+  transform: rotate(10deg);
+  top: 1364px;
+  left: 185px;
+  animation: tv3 2s linear infinite;
+}
+.tv3:hover {
+  animation-play-state: paused;
+}
+@keyframes tv3 {
+  0% {left: 185px; top: 1364px;}
+  16% {left: 80px; top: 1320px;}
+  33% {transform: rotate(-20deg);}
+  48% {left: 210px; top: 1280px;}
+  65% {transform: rotate(10deg);}
+  85% {left: 80px; top: 1320px;}
+}
+.t4 {
+  transform: rotate(-9deg);
+  top: 2032px;
+  left: 1022px;
+  animation: tv4 1.3s alternate infinite;
+}
+.tv4:hover {
+  animation-play-state: paused;
+}
+@keyframes tv4 {
+  0% {left: 1022px; top: 2032px;}
+  50% {left: 1215px; top: 1940px;}
 }
 .gir1 {
   background: url('../images/gir1_1.svg');
@@ -256,7 +306,6 @@ div + img {
 .vilka1 {
   width: 241px;
   height: 510px;
-  /* transform: rotate(23deg); */
   display: block;
   top: 461px;
   left: 781px;
