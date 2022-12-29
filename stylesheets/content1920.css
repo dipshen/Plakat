@@ -352,6 +352,7 @@ div + img {
   background: url('../images/led2.svg');
 }
 .c3 img:nth-of-type(2) {
+  width: 287px;
   top: 486px;
   left: 404px;
 }
