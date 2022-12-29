@@ -6,22 +6,24 @@ div {
   position: absolute;
 }
 /* Первый бульк */
-.c1 img {
+.c1 {
   position: absolute;
+  top: 0;
+  left: 0;
 }
 .c1 img:nth-of-type(1){
   position: relative;
-  width: 900px;
+  width: 1316px;
   padding-top: 0px;
   padding-left: 0px;
 }
 h1 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 110px;
   position: absolute;
-  top: 106px;
-  left: 120px;
-  line-height: 80px;
+  top: 67px;
+  left: 132px;
+  line-height: 125px;
   color: #9DB8D6;
 }
 h2 {
@@ -32,23 +34,28 @@ h2 {
   left: 120px;
   color: #9DB8D6;
 }
-.c1 img:nth-of-type(2){
+.gir1 {
+  background: url('../images/gir1_1.svg');
+  display: block;
   position: absolute;
-  top: 404px;
-  left: 141px;
+  width: 1155px;
+  height: 654px;
+  top: 180px;
+  left: 204px;
 }
-
-
-
-
+.gir1:hover {
+  background: url('../images/gir1_2.svg');
+}
+div + img {
+  position: absolute;
+  width: 574px;
+  top: 219px;
+  left: 1287px;
+}
 
 
 /* Второй бульк */
-div + img:nth-of-type(1) {
-  position: absolute;
-  top: 410px;
-  left: 613px;
-}
+
 .c2 {
   top: 584px;
   right: 0px;
@@ -246,6 +253,44 @@ div + img:nth-of-type(1) {
   0% {transform: rotate(0);}
   100% {transform: rotate(360deg);}
 }
+.vilka1 {
+  width: 241px;
+  height: 510px;
+  /* transform: rotate(23deg); */
+  display: block;
+  top: 461px;
+  left: 781px;
+  background: url('../images/vilka1.svg');
+  animation: vert3 1.5s linear infinite;
+}
+.vert3:hover {
+  animation-play-state: paused;
+}
+@keyframes vert3 {
+  0% {transform: rotate(0);}
+  25% {transform: rotate(15deg);}
+  50% {transform: rotate(0);}
+  75% {transform: rotate(-15deg);}
+}
+.vilka2 {
+  width: 311px;
+  height: 476px;
+  /* transform: rotate(32deg); */
+  display: block;
+  top: 452px;
+  left: 803px;
+  background: url('../images/vilka2.svg');
+  animation: vert4 1.5s linear infinite;
+}
+.vert4:hover {
+  animation-play-state: paused;
+}
+@keyframes vert4 {
+  0% {transform: rotate(0);}
+  25% {transform: rotate(-15deg);}
+  50% {transform: rotate(0);}
+  75% {transform: rotate(15deg);}
+}
 .teapot {
   position: absolute;
   background: url('../images/teapot.svg');
@@ -271,19 +316,10 @@ div + img:nth-of-type(1) {
   transform: rotate(20deg);
 }
 
-
-
-
-
-
 /* Третий бульк */
-div + img:nth-of-type(2) {
-  position: absolute;
-  top: 1411px;
-  left: 344px;
-}
+
 .c3 {
-  top: 1504px;
+  top: 1530px;
   left: 0px;
 }
 .c3 img:nth-of-type(1){
@@ -379,32 +415,125 @@ div + img:nth-of-type(2) {
   transform: scale(1.15);
 }
 
-
-
 /* Четвертый бульк */
-div + img:nth-of-type(3) {
-  position: absolute;
-  top: 2008px;
-  left: 1153px;
-}
+
 .c4 {
-  top: 2098px;
+  top: 2149px;
   right: 0px;
   overflow: hidden;
-}
-.c4 img {
-  position: absolute;
 }
 .c4 img:nth-of-type(1) {
   position: relative;
 }
-.c4 img:nth-of-type(2) {
-  top: 196px;
-  left: 576px;
+.a1 {
+  width: 290px;
+  height: 213px;
+  display: block;
+  top: 949px;
+  left: 176px;
+  background: url('../images/a1.svg');
+  animation: vv3 2s linear infinite;
 }
-
-
-
+@keyframes vv3 {
+  0% {top: 949px; transition-timing-function: ease;}
+  50% {top: 1019px; transition-timing-function: ease;}
+}
+.a2 {
+  width: 231px;
+  height: 258px;
+  display: block;
+  top: 1046px;
+  left: 500px;
+  background: url('../images/a2.svg');
+  animation: vv4 2s linear infinite;
+}
+@keyframes vv4 {
+  0% {top: 1046px; transition-timing-function: ease;}
+  50% {top: 986px; transition-timing-function: ease;}
+}
+.a3 {
+  width: 307px;
+  height: 197px;
+  display: block;
+  top: 1097px;
+  left: 324px;
+  background: url('../images/a3.svg');
+  animation: vv5 1.5s linear infinite;
+}
+@keyframes vv5 {
+  0% {top: 1097px; transition-timing-function: ease;}
+  50% {top: 1157px; transition-timing-function: ease;}
+}
+.a4 {
+  width: 230px;
+  height: 137px;
+  display: block;
+  top: 1204px;
+  left: 173px;
+  background: url('../images/a4.svg');
+  animation: vv6 2s linear infinite;
+}
+@keyframes vv6 {
+  0% {top: 1204px; transition-timing-function: ease;}
+  50% {top: 1144px; transition-timing-function: ease;}
+}
+.a5 {
+  width: 290px;
+  height: 194px;
+  display: block;
+  top: 1149px;
+  left: 554px;
+  background: url('../images/a5.svg');
+  animation: vv7 2s linear infinite;
+}
+@keyframes vv7 {
+  0% {top: 1149px; transition-timing-function: ease;}
+  50% {top: 1209px; transition-timing-function: ease;}
+}
+.gir2 {
+  position: absolute;
+  background: url('../images/gir2_1.svg');
+  display: block;
+  width: 1493px;
+  height: 619px;
+  top:264px;
+  left: -33px;
+}
+.gir2:hover {
+  background: url('../images/gir2_2.svg');
+}
+.gir3 {
+  position: absolute;
+  background: url('../images/gir3_1.svg');
+  display: block;
+  width: 1370px;
+  height: 457px;
+  top:535px;
+  left: 77px;
+}
+.gir3:hover {
+  background: url('../images/gir3_2.svg');
+}
+.c4 img:nth-of-type(2) {
+  position: absolute;
+  width: 303px;
+  height: 699px;
+  top: 725px;
+  left: 940px;
+}
+.koleso {
+  width: 1094px;
+  height: 1064px;
+  display: block;
+  top: 199px;
+  left: 576px;
+  background: url('../images/koleso.svg');
+  animation: rotate4 30s linear infinite;
+}
+@keyframes rotate4 {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
+}
 
 /* Подвал */
 p {
